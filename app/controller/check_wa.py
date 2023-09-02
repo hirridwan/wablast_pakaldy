@@ -54,7 +54,7 @@ def bulk_check_wa():
                 if (counter == 30):
                     print(
                         '=============================================================================')
-                    print(f'{jml_nomor} nomor deui')
+                    print(f'{jml_nomor} Nomor Lagi')
                     counter = 0
                     time.sleep(60)
             except Exception as e:
@@ -62,7 +62,7 @@ def bulk_check_wa():
                 if (counter == 30):
                     print(
                         '=============================================================================')
-                    print(f'{jml_nomor} nomor deui')
+                    print(f'{jml_nomor} Nomor Lagi')
                     time.sleep(60)
                     counter = 0
     except Exception as e:

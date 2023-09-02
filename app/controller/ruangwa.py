@@ -66,7 +66,7 @@ class RuangWa(object):
             print('Error:', e)
             return None
 
-    def send_wa_image(self, number, file, caption):
+    def send_image(self, number, file, caption):
         url = self.api_url+'/send_image'
         tanggal = datetime.datetime.now()
         headers = {'Content-Type': 'application/x-www-form-urlencoded'}

@@ -32,7 +32,7 @@ def bulk_send_image():
 
         for row in rows:
             jml_spasi = 2
-            result = ruangwa.send_wa_image(row[1], row[2], row[3])
+            result = ruangwa.send_image(row[1], row[2], row[3])
             result_string = json.dumps(result)
             counter += 1
             tanggal = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -65,4 +65,4 @@ def bulk_send_image():
     except Exception as e:
         print(f'Error: {e}')
 
-# bulk_send_wa_image_image()
+# bulk_send_image_image()

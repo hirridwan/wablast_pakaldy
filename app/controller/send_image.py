@@ -15,7 +15,7 @@ sys.path.append(os.getenv('APP_PATH'))
 connection = create_connection()
 
 
-def bulk_send_wa_image():
+def bulk_send_image():
     try:
         cursor = connection.cursor()
         query = "select * from send_image where terkirim=0"

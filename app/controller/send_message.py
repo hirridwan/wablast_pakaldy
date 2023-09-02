@@ -14,7 +14,7 @@ sys.path.append(os.getenv('APP_PATH'))
 connection = create_connection()
 
 
-def bulk_send_wa():
+def bulk_send_message():
     try:
         cursor = connection.cursor()
         query = "select * from send_message where terkirim=0"

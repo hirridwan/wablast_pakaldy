@@ -84,3 +84,22 @@ class RuangWa(object):
         except requests.exceptions.RequestException as e:
             print('Error:', e)
             return None
+
+    def send_video(self, number, file, caption):
+        url = self.api_url+'/send_video'
+        tanggal = datetime.datetime.now()
+        headers = {'Content-Type': 'application/x-www-form-urlencoded'}
+        data = {
+            'token': self.api_token,
+            'number': number,
+            'file': file,
+            'caption': caption,
+            'date': tanggal.strftime("%Y-%m-%d"),
+            'time': tanggal.strftime("%H:%M:%S")
+        }
+        try:
+            response = requests.post(url, data, headers)
+            return response.json()
+        except requests.exceptions.RequestException as e:
+            print('Error:', e)
+            return None

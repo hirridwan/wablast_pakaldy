@@ -49,7 +49,7 @@ def bulk_send_message():
                 print(message)
                 if (counter == 5):
                     print(
-                        '=============================================================================')
+                        '============================')
                     print(f'{jml_nomor} Nomor Lagi')
                     counter = 0
                     time.sleep(60)
@@ -57,7 +57,7 @@ def bulk_send_message():
                 print(f'Error Update database : {e}')
                 if (counter == 5):
                     print(
-                        '=============================================================================')
+                        '============================')
                     print(f'{jml_nomor} Nomor Lagi')
                     time.sleep(60)
                     counter = 0
@@ -102,7 +102,7 @@ def bulk_send_image():
                 print(message)
                 if (counter == 5):
                     print(
-                        '=============================================================================')
+                        '============================')
                     print(f'{jml_nomor} Nomor Lagi')
                     counter = 0
                     time.sleep(60)
@@ -110,7 +110,7 @@ def bulk_send_image():
                 print(f'Error Update database : {e}')
                 if (counter == 5):
                     print(
-                        '=============================================================================')
+                        '============================')
                     print(f'{jml_nomor} Nomor Lagi')
                     time.sleep(60)
                     counter = 0
@@ -155,7 +155,7 @@ def bulk_send_link():
                 print(message)
                 if (counter == 5):
                     print(
-                        '=============================================================================')
+                        '============================')
                     print(f'{jml_nomor} Nomor Lagi')
                     counter = 0
                     time.sleep(60)
@@ -163,7 +163,7 @@ def bulk_send_link():
                 print(f'Error Update database : {e}')
                 if (counter == 5):
                     print(
-                        '=============================================================================')
+                        '============================')
                     print(f'{jml_nomor} Nomor Lagi')
                     time.sleep(60)
                     counter = 0
@@ -210,7 +210,7 @@ def bulk_send_video():
                 print(message)
                 if (counter == 5):
                     print(
-                        '=============================================================================')
+                        '============================')
                     print(f'{jml_nomor} Nomor Lagi')
                     counter = 0
                     time.sleep(60)
@@ -218,7 +218,7 @@ def bulk_send_video():
                 print(f'Error Update database : {e}')
                 if (counter == 5):
                     print(
-                        '=============================================================================')
+                        '============================')
                     print(f'{jml_nomor} Nomor Lagi')
                     time.sleep(60)
                     counter = 0
@@ -268,7 +268,7 @@ def bulk_check_wa():
                     f'Nomor HP {row[7]} a.n {row[3]} {" "*jml_spasi} | {message}')
                 if (counter == 30):
                     print(
-                        '=============================================================================')
+                        '============================')
                     print(f'{jml_nomor} Nomor Lagi')
                     counter = 0
                     time.sleep(60)
@@ -276,7 +276,7 @@ def bulk_check_wa():
                 print(f'Error Update database : {e}')
                 if (counter == 30):
                     print(
-                        '=============================================================================')
+                        '============================')
                     print(f'{jml_nomor} Nomor Lagi')
                     time.sleep(60)
                     counter = 0

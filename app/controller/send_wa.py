@@ -52,14 +52,14 @@ def bulk_send_message():
                         '============================')
                     print(f'{jml_nomor} Nomor Lagi')
                     counter = 0
-                    time.sleep(60)
+                    time.sleep(90)
             except Exception as e:
                 print(f'Error Update database : {e}')
                 if (counter == 5):
                     print(
                         '============================')
                     print(f'{jml_nomor} Nomor Lagi')
-                    time.sleep(60)
+                    time.sleep(90)
                     counter = 0
     except Exception as e:
         print(f'Error: {e}')
@@ -105,14 +105,14 @@ def bulk_send_image():
                         '============================')
                     print(f'{jml_nomor} Nomor Lagi')
                     counter = 0
-                    time.sleep(60)
+                    time.sleep(90)
             except Exception as e:
                 print(f'Error Update database : {e}')
                 if (counter == 5):
                     print(
                         '============================')
                     print(f'{jml_nomor} Nomor Lagi')
-                    time.sleep(60)
+                    time.sleep(90)
                     counter = 0
     except Exception as e:
         print(f'Error: {e}')
@@ -158,14 +158,14 @@ def bulk_send_link():
                         '============================')
                     print(f'{jml_nomor} Nomor Lagi')
                     counter = 0
-                    time.sleep(60)
+                    time.sleep(90)
             except Exception as e:
                 print(f'Error Update database : {e}')
                 if (counter == 5):
                     print(
                         '============================')
                     print(f'{jml_nomor} Nomor Lagi')
-                    time.sleep(60)
+                    time.sleep(90)
                     counter = 0
     except Exception as e:
         print(f'Error: {e}')
@@ -213,14 +213,14 @@ def bulk_send_video():
                         '============================')
                     print(f'{jml_nomor} Nomor Lagi')
                     counter = 0
-                    time.sleep(60)
+                    time.sleep(90)
             except Exception as e:
                 print(f'Error Update database : {e}')
                 if (counter == 5):
                     print(
                         '============================')
                     print(f'{jml_nomor} Nomor Lagi')
-                    time.sleep(60)
+                    time.sleep(90)
                     counter = 0
     except Exception as e:
         print(f'Error: {e}')
@@ -271,14 +271,14 @@ def bulk_check_wa():
                         '============================')
                     print(f'{jml_nomor} Nomor Lagi')
                     counter = 0
-                    time.sleep(60)
+                    time.sleep(90)
             except Exception as e:
                 print(f'Error Update database : {e}')
                 if (counter == 30):
                     print(
                         '============================')
                     print(f'{jml_nomor} Nomor Lagi')
-                    time.sleep(60)
+                    time.sleep(90)
                     counter = 0
     except Exception as e:
         print(f'Error: {e}')
